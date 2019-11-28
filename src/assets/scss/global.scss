@@ -1,0 +1,34 @@
+
+body {
+  height: 100%;
+  // background: #f3f4f8;
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  font-family: "Hiragino Sans GB W3", "microsoft yahei", "WenQuanYi Micro Hei", sans-serif;
+}
+.iconfont{
+  font-size: 42px;
+}
+/* 清除浮动 */
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
